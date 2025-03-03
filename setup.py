@@ -10,7 +10,7 @@ SRC_FOLDER = '.'
 PKG_NAME = 'spid_cie_oidc'
 
 INSTALL_REQUIRES = [
-    "Django>=4.0,<5.0",
+    "Django>=4.0",
     "cryptojwt>=1.8.2",
     "pydantic>=1.8.2,<2.0",
     "pytz>=2021.3",
@@ -63,6 +63,7 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Software Development :: Libraries :: Python Modules"],
     install_requires=INSTALL_REQUIRES,
     zip_safe=False,
