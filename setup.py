@@ -14,7 +14,7 @@ INSTALL_REQUIRES = [
     "cryptojwt>=1.8.2",
     "pydantic>=1.8.2,<2.0",
     "pytz>=2021.3",
-    "aiohttp>3.9,<3.10",
+    "aiohttp>3.9",
     "requests>=2.20,<3.0",
     "pydantic[email]",
     "djagger"
@@ -64,6 +64,8 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
         "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3.13",
+        "Programming Language :: Python :: 3.14",
         "Topic :: Software Development :: Libraries :: Python Modules"],
     install_requires=INSTALL_REQUIRES,
     zip_safe=False,
